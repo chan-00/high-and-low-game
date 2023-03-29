@@ -2,16 +2,16 @@
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 //import components
 import { MainPage } from "./Components/Templates/MainPage";
+import { EasyPage } from "./Components/Templates/EasyPage";
 
 function App() {
   return (
-    <div>
-      <Router>
-        <Routes>
-          <Route path="/" element={<MainPage/>} />
-        </Routes>
-      </Router>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<MainPage/>} />
+        <Route path="/easy" element={<EasyPage/>} />
+      </Routes>
+    </Router>
   );
 }
 
