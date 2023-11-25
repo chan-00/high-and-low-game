@@ -4,6 +4,7 @@
 
 - TypeScript 학습을 위한 랜덤 숫자 맞추는 페이지 제작
 - 개발 기간 (2023.03 ~ 2023.03)
+- Vercel 링크: https://high-and-low-game.vercel.app/
 
 ## 사용 기술
 
